@@ -1,0 +1,53 @@
+.header {
+	padding: 0px 15% 0px 15%;
+	background-color: #86B448;
+	border: 1px groove;
+	display: flex;
+	margin-bottom: 1%;
+}
+
+#logo {
+	padding-right: 2%;
+}
+
+.pt-input-group {
+	padding: 2%;
+}
+
+.pt-input[type="search"] {
+	border-radius: 0%;
+	background-color: #5e8033;
+	color: #ffffff;
+}
+
+#iconStyle {
+	color: #86B448;
+	margin: 6% 0% 0% 10%;
+}
+
+.pt-input[type="search"]::-webkit-input-placeholder {
+	color: #ffffff;
+}
+
+.icon > img {
+	width: 28px;
+	height: 28px;
+}
+
+.icon {
+	margin: 20px 5px 20px 5px;
+}
+
+.user > img {
+	width: 27;
+	height: 27px;
+	margin-right: 5px;
+	margin-left: 10%;
+}
+
+.user {
+	padding-top: 20px;
+	display: flex;
+	color: #ffffff;
+	width: 25%;
+}

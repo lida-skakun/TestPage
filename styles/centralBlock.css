@@ -1,0 +1,24 @@
+.centralBlock {
+	width: 50%;
+}
+
+.head {
+	display: flex;
+}
+
+#button {
+	background: #86B448;
+	color: #ffffff;
+	margin-left: 20%;
+}
+
+h2 {
+	margin-left: 5%;
+	font-weight: 400;
+}
+
+.block {
+	border: 1px solid #e6e6e6;
+	padding: 1%;
+	margin: 1%;
+}
