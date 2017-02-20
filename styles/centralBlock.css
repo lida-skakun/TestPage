@@ -21,4 +21,25 @@ h2 {
 	border: 1px solid #e6e6e6;
 	padding: 1%;
 	margin: 1%;
+	display: inline-table;
 }
+
+.service {
+	padding: 5px;
+	margin: 5px;
+	text-align: center;
+	font-weight: 300;
+	display: inline-block;
+}
+
+.fotoService {
+	border: 1px solid #e6e6e6;
+	padding: 15px;
+	margin: 5px;
+}
+
+.nameService {
+	width: 90px;
+	font-size: 12px;
+}
+

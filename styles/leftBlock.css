@@ -1,3 +1,7 @@
 .leftBlock {
-	width: 325px;
+	width: 360px;
+}
+
+@media (max-width: 970px) {
+	.leftBlock {width: 240px}
 }
