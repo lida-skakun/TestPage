@@ -1,5 +1,32 @@
 .rightBlock {
-	width: 360px;
+	width: 200px;
+	position: relative;
+	float: left;
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+.topAdv, .productAdv {
+	border-bottom: 1px solid #e6e6e6;
+	padding-bottom: 10px;
+}
+
+.topAdv > p, .topAdv > a, .productAdv > p, .productAdv > a {
+	display: inline;
+}
+
+.topAdv > p, .productAdv > p {
+	color: #8c8c8c;
+}
+
+.topAdv > a, .productAdv > a {
+	color: #000000;
+	position: relative;
+	float: right;
+}
+
+.productAdv {
+	margin-top: 5px;
 }
 
 @media (max-width: 970px) {

@@ -14,5 +14,6 @@ export default class Service extends React.Component {
             <div className="nameService"> {this.props.serviceDatalist.name}</div>
         </div>
     }
+
 }
 

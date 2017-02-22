@@ -1,5 +1,5 @@
 .centralBlock {
-	width: 50%;
+	width: 45%;
 }
 
 .head {
@@ -19,27 +19,38 @@ h2 {
 
 .block {
 	border: 1px solid #e6e6e6;
-	padding: 1%;
-	margin: 1%;
+	padding: 5px;
+	margin: 5px;
 	display: inline-table;
+	text-align: center;
 }
 
 .service {
 	padding: 5px;
 	margin: 5px;
-	text-align: center;
+	font-size: 12px;
 	font-weight: 300;
 	display: inline-block;
+	cursor: pointer;
 }
+.fotoService:hover {
+	
+		background-color: #e6e6e6;
 
+	}
+	
 .fotoService {
 	border: 1px solid #e6e6e6;
-	padding: 15px;
+	padding: 25px;
 	margin: 5px;
 }
 
+.fotoService > img{
+	height: 71px;
+	width: 71px;
+}
+
 .nameService {
-	width: 90px;
-	font-size: 12px;
+	max-width: 12em;
 }
 

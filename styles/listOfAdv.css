@@ -1,0 +1,30 @@
+.listOfAdv {
+	font-weight: 400;
+	padding: 10px 15px 10px 0px;
+	font-size: 11px;
+}
+
+.foto {
+	float: left;	
+}
+
+.foto > img {
+	border-radius: 5px;
+	margin-right: 5px; 
+}
+
+.listOfAdv > p {
+	color: #8c8c8c;
+	margin: 0px;
+}
+
+#kindOfEvent {
+	color: #000000;
+	font-size: 10px;
+}
+
+.name {
+	font-weight: 500;
+	text-align: left;
+	padding-top: 5px;
+}
