@@ -8,9 +8,9 @@ export default class LeftBlock extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state ={
-        	advDatalist: [
-        		{
+        this.state = {
+            advDatalist: [
+                {
                     id: "1",
                     img: "images/adv1.jpg",
                     companyName: "Company Name",
@@ -21,7 +21,7 @@ export default class LeftBlock extends React.Component {
                 {
                     id: "2",
                     img: "images/adv2.jpg",
-                    companyName: "Company Name", 
+                    companyName: "Company Name",
                     occupation: "Service Provider",
                     address: "New York, USA",
                     kindOfEvent: "Follow now"
@@ -38,32 +38,32 @@ export default class LeftBlock extends React.Component {
         }
     }
 
-    render () {
-        var advList = this.state.advDatalist.map(function(item) {
+    render() {
+        var advList = this.state.advDatalist.map(function (item) {
             return (
                 <ListOfAdv list={item} key={item.id}>
                 </ListOfAdv>
             );
         });
 
-    return <div className="leftBlock">
+        return <div className="leftBlock">
             <nav>
-              	<a><img src="images/Feed859.png" />Feed</a> 
-    			<a><img src="images/Ask.png" />Ask a colleague</a> 
-    			<a><img src="images/Companies858.png" />Companies</a> 
-    			<a><img src="images/Services.png" />Service Directory</a>
-	        </nav>
+                <a><img src="images/Feed859.png"/>Feed</a>
+                <a><img src="images/Ask.png"/>Ask a colleague</a>
+                <a><img src="images/Companies858.png"/>Companies</a>
+                <a><img src="images/Services.png"/>Service Directory</a>
+            </nav>
             <div className="advGroup">
-                <Advertisment image="images/three1.jpg" />
-    	        <div className="advList">
-    	            <p>Featured Companies</p>
+                <Advertisment image="images/three1.jpg"/>
+                <div className="advList">
+                    <p>Featured Companies</p>
                     <a>See all</a>
-    	   		    {advList}
-       		    </div>
-                <div id="copyright"> 
+                    {advList}
+                </div>
+                <div id="copyright">
                     <p>Denteeze Copyright 2015</p>
-                    <a>Terms of use</a>  
-                    <a>Privacy Policy</a>  
+                    <a>Terms of use</a>
+                    <a>Privacy Policy</a>
                 </div>
             </div>
         </div>

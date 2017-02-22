@@ -11,13 +11,14 @@ export default class CentralBlock extends React.Component {
         super(props);
     }
 
-    render () {
-        var itemsNodes = this.props.serviceDatalist.map(function(item) {
+    render() {
+        var itemsNodes = this.props.serviceDatalist.map(function (item) {
             return (
                 <Service serviceDatalist={item} key={item.id}>
                 </Service>
             );
         });
+        
         return <div className="centralBlock">
             <div className="head">
                 <h2>Service directory</h2>

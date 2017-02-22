@@ -1,5 +1,5 @@
-# Store Home Page Test
-
+# Page Test
+Used technologies: React JS, BlueprintJS, webpack, npm
 ## Local setup
 
 - Clone the repository

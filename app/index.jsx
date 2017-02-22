@@ -5,7 +5,7 @@ import Main from './components/main';
 import styles from '../styles/index.css';
 
 class App extends React.Component {
-    render () {
+    render() {
         return <div>
             <Header />
             <Main />

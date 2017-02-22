@@ -10,12 +10,12 @@ export default class ListOfAdv extends React.Component {
 
     render() {
         return <div className="listOfAdv">
-                <div className="name">{this.props.list.name}</div>
-		   		<div className="foto"><img src={this.props.list.img}/></div>
-                <div className="companyName"> {this.props.list.companyName}</div>
-                <p>{this.props.list.occupation}</p>
-                <p>{this.props.list.address}</p>
-                <a id="kindOfEvent">{this.props.list.kindOfEvent}</a>
-		   </div>
+            <div className="name">{this.props.list.name}</div>
+            <div className="foto"><img src={this.props.list.img}/></div>
+            <div className="companyName"> {this.props.list.companyName}</div>
+            <p>{this.props.list.occupation}</p>
+            <p>{this.props.list.address}</p>
+            <a id="kindOfEvent">{this.props.list.kindOfEvent}</a>
+        </div>
     }
 }

@@ -2,19 +2,19 @@
 	width: 45%;
 }
 
-.head {
-	display: flex;
-}
-
 #button {
 	background: #86B448;
 	color: #ffffff;
-	margin-left: 20%;
+	position: relative;
+	float: right;
+	display: inline;
+	margin-right: 5%;
 }
 
 h2 {
 	margin-left: 5%;
 	font-weight: 400;
+	display: inline;
 }
 
 .block {
@@ -34,10 +34,8 @@ h2 {
 	cursor: pointer;
 }
 .fotoService:hover {
-	
-		background-color: #e6e6e6;
-
-	}
+	background-color: #e6e6e6;
+}
 	
 .fotoService {
 	border: 1px solid #e6e6e6;

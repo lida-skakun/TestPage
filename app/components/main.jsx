@@ -10,7 +10,7 @@ export default class Main extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            serviceData : [
+            serviceData: [
                 {
                     id: "1",
                     img: "images/Shape51.png",
@@ -120,7 +120,7 @@ export default class Main extends React.Component {
         }
     }
 
-    render () {
+    render() {
         return <div className="main">
             <LeftBlock />
             <CentralBlock serviceDatalist={this.state.serviceData}/>

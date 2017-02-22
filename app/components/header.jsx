@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div className="header">
             <div id="logo">
-                <img src="images/logo.jpg" />
+                <img src="images/test_service_directory-0.jpg" width="121" height="41"/>
             </div>
             <div className="pt-input-group">
                 <span className="pt-icon pt-icon-search" id="iconStyle"/>

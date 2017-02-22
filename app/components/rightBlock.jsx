@@ -8,9 +8,9 @@ export default class RightBlock extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state ={
-        	peopleList: [
-        		{
+        this.state = {
+            peopleList: [
+                {
                     id: "1",
                     img: "images/face1.jpg",
                     name: "Dennis Adams",
@@ -53,22 +53,22 @@ export default class RightBlock extends React.Component {
         }
     }
 
-    render () {
-        var peopleList = this.state.peopleList.map(function(item) {
+    render() {
+        var peopleList = this.state.peopleList.map(function (item) {
             return (
                 <ListOfAdv list={item} key={item.id}>
                 </ListOfAdv>
             );
         });
 
-        var productsList = this.state.productsList.map(function(item) {
+        var productsList = this.state.productsList.map(function (item) {
             return (
                 <ListOfAdv list={item} key={item.id}>
                 </ListOfAdv>
             );
-        }); 
+        });
 
-    return <div className="rightBlock">
+        return <div className="rightBlock">
             <div className="topAdv">
                 <p>People you may know</p>
                 <a>See all</a>
@@ -78,7 +78,6 @@ export default class RightBlock extends React.Component {
                 <p>Featured Products</p>
                 <a>See all</a>
                 {productsList}
-                
             </div>
             <Advertisment image="images/cool.jpg"/>
         </div>
