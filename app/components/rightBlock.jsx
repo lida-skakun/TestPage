@@ -2,7 +2,7 @@ import React from 'react';
 import {render} from 'react-dom';
 import Advertisment from './advertisment';
 import ListOfAdv from './listOfAdv';
-import styles from '../../styles/rightBlock.css';
+import styles from '../../styles/rightBlock.styl';
 
 export default class RightBlock extends React.Component {
 

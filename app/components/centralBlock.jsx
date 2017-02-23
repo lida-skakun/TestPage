@@ -1,7 +1,7 @@
 import React from 'react';
 import {render} from 'react-dom';
 import Service from './service'
-import styles from '../../styles/centralBlock.css';
+import styles from '../../styles/centralBlock.styl';
 import '@blueprintjs/core/dist/blueprint.css';
 
 

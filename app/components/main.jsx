@@ -3,7 +3,7 @@ import {render} from 'react-dom';
 import LeftBlock from './leftBlock';
 import CentralBlock from './centralBlock';
 import RightBlock from './rightBlock';
-import styles from '../../styles/main.css';
+import styles from '../../styles/main.styl';
 
 export default class Main extends React.Component {
 

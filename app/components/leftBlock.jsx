@@ -2,7 +2,7 @@ import React from 'react';
 import {render} from 'react-dom';
 import Advertisment from './advertisment';
 import ListOfAdv from './listOfAdv';
-import styles from '../../styles/leftBlock.css';
+import styles from '../../styles/leftBlock.styl';
 
 export default class LeftBlock extends React.Component {
 
@@ -12,7 +12,7 @@ export default class LeftBlock extends React.Component {
             advDatalist: [
                 {
                     id: "1",
-                    img: "images/adv1.jpg",
+                    img: "images/picture1.jpg",
                     companyName: "Company Name",
                     occupation: "Manufacturer",
                     address: "Belgrade, Serbia",
@@ -20,7 +20,7 @@ export default class LeftBlock extends React.Component {
                 },
                 {
                     id: "2",
-                    img: "images/adv2.jpg",
+                    img: "images/picture2.jpg",
                     companyName: "Company Name",
                     occupation: "Service Provider",
                     address: "New York, USA",
@@ -28,7 +28,7 @@ export default class LeftBlock extends React.Component {
                 },
                 {
                     id: "3",
-                    img: "images/adv3.jpg",
+                    img: "images/picture3.jpg",
                     companyName: "Company Name",
                     occupation: "Supplier",
                     address: "London, England",

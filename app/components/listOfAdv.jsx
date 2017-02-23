@@ -1,6 +1,6 @@
 import React from 'react';
 import {render} from 'react-dom';
-import styles from '../../styles/listOfAdv.css';
+import styles from '../../styles/listOfAdv.styl';
 
 export default class ListOfAdv extends React.Component {
 

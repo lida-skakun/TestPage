@@ -19,6 +19,10 @@ module.exports = {
                 loaders: ['style', 'css'],
             },
             {
+                test: /\.styl$/,
+                loader: 'style-loader!css-loader!stylus-loader'
+            },
+            {
                 test: /\.jsx?$/,
                 exclude: /node_modules/,
                 loaders: [ "babel" ]

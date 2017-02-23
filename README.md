@@ -1,5 +1,5 @@
 # Page Test
-Used technologies: React JS, BlueprintJS, webpack, npm
+Used technologies: React JS, BlueprintJS, webpack, npm, stylus
 ## Local setup
 
 - Clone the repository

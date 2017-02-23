@@ -1,6 +1,6 @@
 import React from 'react';
 import {render} from 'react-dom';
-import styles from '../../styles/advertisment.css';
+import styles from '../../styles/advertisment.styl';
 
 export default class Advertisment extends React.Component {
 

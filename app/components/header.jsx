@@ -1,6 +1,6 @@
 import React from 'react';
 import {render} from 'react-dom';
-import styles from '../../styles/header.css';
+import styles from '../../styles/header.styl';
 import '@blueprintjs/core/dist/blueprint.css';
 
 const Header = () => {
@@ -9,9 +9,9 @@ const Header = () => {
             <div id="logo">
                 <img src="images/test_service_directory-0.jpg" width="121" height="41"/>
             </div>
-            <div className="pt-input-group">
+            <div className="pt-input-group" id="serviceSearch">
                 <span className="pt-icon pt-icon-search" id="iconStyle"/>
-                <input className="pt-input" type="search" placeholder="Company Name" dir="auto" />
+                <input className="pt-input" type="search" id="as" placeholder="Company Name" dir="auto" />
             </div>
             <div className="icon">
                 <img src="images/Chat.png" />
